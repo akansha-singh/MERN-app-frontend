@@ -3,12 +3,14 @@ import UsersList from '../components/UsersList';
 
 const Users = () => {
   const USERS = [
-    {id: 'u1',
+    {
+      id: 'u1',
      name: 'Max Schwarz',
-     image:'https://cdn2.vectorstock.com/i/1000x1000/03/96/peace-and-love-symbol-vector-19560396.jpg',
+     image:'https://image.freepik.com/free-vector/cartoon-monster-face-avatar-halloween-monster_6996-1120.jpg',
      places:3
     }  
   ];
+  
   return <UsersList items={USERS} />;
 };
 
